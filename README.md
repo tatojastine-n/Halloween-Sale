@@ -1,1 +1,2 @@
 # Halloween-Sale
+This C# program calculates how many games can be bought given a starting price, discount, minimum price, and total budget. The `howManyGames` function repeatedly subtracts the current game price from the budget, decreases the price by the discount without going below the minimum, and counts each purchase until the budget is insufficient. The `Main` method reads input values, calls the function, and outputs the total number of games that can be bought.
